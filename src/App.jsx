@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import TechStackIcons from "./components/TechStackIcons";
-import ProjectsInProgress from "./components/projectsInProgress";
+import ProjectsInProgress from "./components/ProjectsInProgress";
 
 
 export default function Hero() {
