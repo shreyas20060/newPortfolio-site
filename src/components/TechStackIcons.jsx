@@ -34,7 +34,7 @@ export default function TechStackIcons() {
 
   return (
     <section className="my-16 px-4 ">
-      <h1 className="text-center text-blue-500 text-5xl mb-12 outline-1 outline-blue-600">
+      <h1 className="text-center text-blue-500 text-5xl mb-12 ">
         Some Tech Stacks I am familiar with
       </h1>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 justify-items-center">
