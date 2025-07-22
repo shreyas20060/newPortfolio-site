@@ -1,6 +1,8 @@
 import React, { useRef, useEffect, useState } from "react";
 import { gsap } from "gsap";
 
+
+
 const videos = [
   { src: "./vid1.mp4", title: "Project 1" },
   { src: "./vid2.mp4", title: "Project 2" },
@@ -69,7 +71,7 @@ function ProjectsInProgress() {
   }, [activeIndex]);
 
   return (
-    <section className="my-12 px-4">
+    <section className="my-4 px-4">
       <h2 className="text-4xl font-bold text-center text-gray-800 mb-8">
         Projects that I made for fun!
       </h2>

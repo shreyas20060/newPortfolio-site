@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import TechStackIcons from "./components/TechStackIcons";
 import ProjectsInProgress from "./components/ProjectsInProgress";
-
+import AboutMe from "./components/AboutMe";
 
 export default function Hero() {
   const titleRef = useRef(null);
@@ -73,11 +73,12 @@ export default function Hero() {
   </div>
 
      <TechStackIcons />
-     <div className="mt-24">
+     <div className="mt-24"> 
+         <AboutMe/>
          <ProjectsInProgress/>
      </div>
+    
   
-
     </section>
   );
 }

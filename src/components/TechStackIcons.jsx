@@ -33,7 +33,7 @@ export default function TechStackIcons() {
   };
 
   return (
-    <section className="my-16 px-4">
+    <section className="my-16 px-4 ">
       <h1 className="text-center text-pink-400 text-5xl mb-12">
         Some Tech Stacks I am familiar with
       </h1>
