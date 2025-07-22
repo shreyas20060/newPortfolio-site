@@ -4,9 +4,9 @@ import { gsap } from "gsap";
 
 
 const videos = [
-  { src: "./vid1.mp4", title: "Project 1" },
-  { src: "./vid2.mp4", title: "Project 2" },
-  { src: "./vid3.mp4", title: "Project 3" },
+  { src: "./vid1.mp4", title: "MOJITO SITE" },
+  { src: "./vid2.mp4", title: "AMAZON UI CLONE" },
+  { src: "./vid3.mp4", title: "MOVIE SITE" },
 ];
 
 function ProjectsInProgress() {
@@ -72,7 +72,7 @@ function ProjectsInProgress() {
 
   return (
     <section className="my-4 px-4">
-      <h2 className="text-4xl font-bold text-center text-gray-800 mb-8">
+      <h2 className="text-9xl font-bold text-center text-yellow-600 mt-4 mb-10 ">
         Projects that I made for fun!
       </h2>
 
@@ -80,7 +80,7 @@ function ProjectsInProgress() {
         {videos.map(({ src, title }, index) => (
           <div
             key={index}
-            className="w-186 h-82 relative overflow-hidden shadow-md rounded-lg cursor-pointer"
+            className="w-186 h-100 relative overflow-hidden shadow-md rounded-lg cursor-pointer"
             onMouseEnter={() => handleMouseEnter(index)}
             onMouseLeave={() => handleMouseLeave(index)}
           >
@@ -93,8 +93,8 @@ function ProjectsInProgress() {
               playsInline
               className="w-full h-full object-cover transition-transform duration-300"
             />
-            <div className="absolute bottom-2 left-2 px-3 py-1 text-sm text-white bg-black bg-opacity-60 rounded">
-              {title}
+            <div className="absolute bottom-2 left-2 px-3 py-1 text-sm text-white bg-black bg-opacity-60 rounded ">
+              {title} 
             </div>
           </div>
         ))}
