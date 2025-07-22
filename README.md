@@ -1,12 +1,34 @@
-# React + Vite
+Shreyas - Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+About Me
+Hi, I'm Shreyas, a passionate Frontend Developer. This portfolio showcases my projects and skills to help you learn more about what I do.
+Portfolio Website Overview
+This is my personal portfolio site built to display my work and skills in a clean, modern, and responsive design.
+Features
+Responsive design for all devices
+Interactive project showcase with screenshots and descriptions
+Theme and color customization options
+Integration of icons using [e.g., LineIcons or FontAwesome]
+Smooth and user-friendly navigation
+Built With
+React
+Next.js
+Tailwind CSS
+Vite 
+Demo
+View the live website here: //i will add website in near future
+Getting Started
+Prerequisites
+Make sure you have Node.js installed.
+Installation
+Clone the repository:
+bash
+git clone https://github.com/shreyas20060/newPortfolio-site.git
+cd your-portfolio-repo
+Install dependencies:
+bash
+npm install
+Run locally:
+bash
+npm run dev
+Open your browser and go to http://localhost:3000 to view the website.
