@@ -52,7 +52,7 @@ export default function Hero() {
       <h1 ref={titleRef} className="mt-42 flex text-8xl font-bold text-black mb-4">
         Hello, I'm Shreyas <img src="smiley.png" className="mt-1 ml-8 h-24 w-24"></img>
       </h1>
-      <h2 ref={h2Ref} className="text-4xl font-semibold text-blue-500 mb-4">
+      <h2 ref={h2Ref} className="text-5xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent inline-block m-10">
         {headings[0]}
       </h2>
 
