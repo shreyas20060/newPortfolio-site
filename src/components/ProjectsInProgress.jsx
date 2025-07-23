@@ -72,7 +72,7 @@ function ProjectsInProgress() {
 
   return (
     <section className="my-4 px-4">
-      <h2 className="text-9xl font-bold text-center text-yellow-600 mt-4 mb-10 ">
+      <h2 className="text-9xl font-bold text-center text-yellow-600 mt-4 mb-10 underline decoraton-double">
         Projects that I made for fun!
       </h2>
 
@@ -97,8 +97,9 @@ function ProjectsInProgress() {
               {title} 
             </div>
           </div>
-        ))}
+        ))} <img src="ov.png" className="h-64 w-86 ml-6 mt-32 p-2"></img>
       </div>
+
     </section>
   );
 }

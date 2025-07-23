@@ -48,6 +48,7 @@ export default function Hero() {
   }, []);
 
   return (
+  <>
     <section className="flex flex-col min-h-screen items-center justify-center ">
       <h1 ref={titleRef} className="mt-42 flex text-8xl font-bold text-black mb-4">
         Hello, I'm Shreyas <img src="smiley.png" className="mt-1 ml-8 h-24 w-24"></img>
@@ -75,8 +76,8 @@ export default function Hero() {
      <div className="mt-24"> 
          <ProjectsInProgress/>
      </div>
-    
   
     </section>
+    </>
   );
 }
